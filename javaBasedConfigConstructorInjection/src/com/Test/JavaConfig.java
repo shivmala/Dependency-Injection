@@ -15,7 +15,7 @@ public class JavaConfig
     @Bean(name="employee1") 
 	public Employee getEmlpoyee1() 
 	{
-		return new Employee(432, "Saurabh", "Java Developer", 8732948.56, getDepartment1()); 
+		return new Employee(432, "Saurabh", "Java Developer", 8732948.56, getDepartment2()); 
 		  
 	}
     
